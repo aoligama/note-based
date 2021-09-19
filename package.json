@@ -9,7 +9,7 @@
     "test": "jest",
     "deploy": "yarn run build && aws s3 cp dist/ s3://superimportantwebsite.com --recursive"
   },
-  "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
+  "author": "Amanda Gama",
   "license": "MIT",
   "private": true,
   "dependencies": {
